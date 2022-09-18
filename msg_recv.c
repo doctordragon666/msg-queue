@@ -1,4 +1,4 @@
-//接受进程1发过来的信息，并打印输出。直到接受到exit。
+//接受msg_send发过来的信息，并打印输出。直到接受到exit。
 
 #include <sys/types.h>
 #include <sys/ipc.h>
